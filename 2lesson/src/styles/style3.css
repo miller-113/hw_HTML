@@ -3,6 +3,9 @@ body{
     margin: 0 auto;
     background: gainsboro;
 }
+a{
+    text-decoration: none;
+}
 
 .container {
     background: #ffff;
