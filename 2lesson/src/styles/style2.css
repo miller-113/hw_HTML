@@ -1,0 +1,218 @@
+body{
+    background: #e8e8e8;
+}
+.t-last{
+    left: -235px;
+    top: 2287px;
+    position: absolute;
+}
+.shape{
+    width: 340px;
+    height: 340px;
+    background-color: #FFce22;
+    border: 2px solid grey;
+}
+.shape-circle{
+    width: 310px;
+    height: 310px;
+    background-color: #FFce22;
+    border: 2px solid grey;
+    border-radius: 50% 50% 50% 50%;
+    box-sizing: border-box;
+    margin: 15px;
+    position: absolute;
+
+}
+.shape1-3,
+.shape1-2,
+.shape1{
+    width: 80px;
+    height: 55px;
+    background-color: #FFce22;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.shape1-2{
+    margin: 10px 250px;
+}
+
+.shape1-3{
+    margin: 220px 123px;
+}
+
+.shape-inner{
+    background-color: #1A01CC;
+    width: 100%;
+    height: 50%;
+}
+
+.shape-inner-circle{
+    background-color: #1A01CC;
+    width: 100%;
+    height: 50%;
+    border-radius: 200px 200px 0 0;
+}
+
+.shape-inner1{
+    background-color: #1A01CC;
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px 0 0;
+}
+
+.img-glif{
+    margin: 91px 34px;
+    width: 280px;
+}
+
+.img-glif-circle{
+    width: 227px;
+    margin: 147px 40px;
+}
+
+.heptagon-outter{
+    clip-path: polygon(50% 0%, 100% 26%, 100% 70%, 50% 100%, 49% 100%, 0 71%, 0 28%);
+    background-color: #020202;
+    width: 300px;
+    height: 300px;
+}
+
+.heptagon-inner{
+    clip-path: polygon(50% 6%, 100% 31%, 100% 70%, 50% 100%, 50% 100%, 0 70%, 0 33%);
+    background-color: #ffffff;
+    width: 280px;
+    height: 280px;
+    margin: 0 auto;
+}
+
+.vector1{
+    clip-path: polygon(29% 55%, 60% 110%, 47% 99%, 28% 62%, 13% 82%, 9% 80%);
+    width: 10px;
+    background: black;
+    block-size: border-box;
+    padding-top: 62%;
+    padding-left: 111px;
+}
+
+.vector2{
+    clip-path: polygon(29% 55%, 60% 110%, 47% 99%, 28% 62%, 13% 82%, 9% 80%);
+    width: 43px;
+    height: 20px;
+    background: black;
+    block-size: border-box;
+    padding-top: 50%;
+    padding-left: 114px;
+    margin-left: 76px;
+}
+
+.heptagon-outter-circle{
+    clip-path: polygon(50% 0%, 100% 26%, 100% 70%, 50% 100%, 49% 100%, 0 71%, 0 28%);
+    background-color: #020202;
+    width: 200px;
+    height: 200px;
+    margin: 30px 50px
+}
+
+.heptagon-inner-circle{
+    clip-path: polygon(50% 6%, 100% 31%, 100% 70%, 50% 100%, 50% 100%, 0 70%, 0 33%);
+    background-color: #ffffff;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.vector1-circle{
+    clip-path: polygon(31% 73%, 42% 100%, 31% 97%, 28% 83%, 21% 91%, 15% 86%);
+    background: black;
+    block-size: border-box;
+    padding-top: 67%;
+    padding-left: 96px;
+    margin: 30px 72px -33px 46px;
+}
+
+.vector2-circle{
+    clip-path: polygon(31% 73%, 42% 100%, 31% 97%, 28% 83%, 21% 91%, 15% 86%);
+    background: black;
+    block-size: border-box;
+    padding-top: 36%;
+    padding-left: 70px;
+    margin: 34px 1px -23px 13px;
+    padding-right: 30px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+.for-shape-heptagon{
+    padding-top: 7%;
+}
+
+.fly-shape{
+    clip-path: polygon(50% 0%, 93% 89%, 59% 73%, 51% 100%, 41% 73%, 7% 89%, 50% 0);
+    width: 270px;
+    height: 290px;
+    background-color: #b6b6b6;
+}
+
+.fly-shape-circle{
+    clip-path: polygon(50% 0%, 93% 89%, 59% 73%, 51% 100%, 41% 73%, 7% 89%, 50% 0);
+    width: 235px;
+    height: 250px;
+    background-color: #b6b6b6
+}
+
+.for-fly-shape{
+    padding: 53px 90px;
+}
+
+.for-fly-shape-circle{
+    padding: 25px 36px;
+}
+
+.text-dia{
+    padding: 40px 86px;
+    font-size: 350%;
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+}
+.shape-square-black1,
+.shape-square-black{
+    width: 340px;
+    height: 340px;
+    background-color: black;
+    border: 2px solid grey;
+}
+.shape-square-black1 {
+    margin: 61px -236px;
+}
+.shape-square-white{
+    width: 344px;
+    height: 344px;
+    background-color: #ffffff;
+}
+
+.menu{
+/*background:oldlace;*/
+width:450px;
+height:0;
+    /*max-width: 450px;*/
+    /*contain: size;*/
+}
+
+.content{
+/*background:oldlace;*/
+/*width:525px;*/
+/*height:300px;*/
+position:absolute;
+left:490px;
+/*top:100px;*/
+    /*margin-left: 480px;*/
+}

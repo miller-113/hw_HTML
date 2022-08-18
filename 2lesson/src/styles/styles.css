@@ -1,0 +1,105 @@
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: gainsboro;
+}
+
+.container {
+    background: #ffff;
+
+}
+
+.text-center,
+.text-right,
+.text-left{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.25px;
+    height: 25px;
+    padding-top: 13px;
+
+}
+
+.text-shadow,
+.text-left{
+    margin: 5px 15px;
+
+}
+.text-shadow-center{
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+
+}
+.text-right{
+    text-align: right;
+    margin: 0 15px;
+}
+
+.img-full{
+    margin: 0 13px;
+}
+
+.caption-text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.025em;
+    color: #333333;
+}
+
+.img-center{
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    height: 550px;
+
+    block-size: auto;
+
+}
+
+
+/* HORIZONTAL SCROLL */
+.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 5px 70px 5px 20px;
+  background: transparent;
+  height: 100%;
+  border-radius:15px;
+
+}
+
+.gridscroll{
+  display:inline-block;
+
+}
+
+.gridscroll img {
+  margin-right:22px;
+}
+
+::-webkit-scrollbar{
+    height: 8px;
+    background: gray;
+}
+::-webkit-scrollbar-thumb:horizontal{
+    background: #000;
+    /*border-radius: 50px;*/
+}
+
+.circular-images{
+    margin: 30px auto ;
+    display: table;
+}
+.for-circular{
+    margin: 0 auto;
+    display: table;
+    padding: 10px 0 50px;
+}
+
