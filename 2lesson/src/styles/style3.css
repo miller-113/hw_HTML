@@ -130,7 +130,7 @@ a > span > img{
 .container-photo-right,
 .container-photo{
     position: absolute;
-    width: 27%;
+    width: 490px;
     height: 42%;
     background: #FFFFFF;
     box-shadow: 0 4px 57px 3px rgb(0 0 0 / 25%);
