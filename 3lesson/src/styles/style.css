@@ -128,6 +128,19 @@ img + ul{
     position: relative;
 }
 
+.card:hover{
+    background: #AEAEE2;
+    box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);
+}
+
+.card:hover .card-star2{
+    fill: yellow;
+}
+
+.card:hover .card-btn{
+    background: #EF075B;
+}
+
 .card2{
     height: 500px;
     width: 1300px;
@@ -199,10 +212,10 @@ img + ul{
     height: 30px;
 }
 
-#card1{
-    background: #AEAEE2;
-    box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);
-}
+/*#card1{*/
+/*    background: #AEAEE2;*/
+/*    box-shadow: 5px 5px 30px rgba(0, 0, 255, 0.25);*/
+/*}*/
 .last-text1,
 .last-text{
     font-size: 2em;
