@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+html{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+
+}
+
+a{
+    text-decoration: none;
+    color: #B2B2B2;
+}
+a:hover{
+    color: #FFBB00;
+}
+body{
+    margin: 0 auto;
+}
+
+header{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header div,
+header li{
+    display: inline-block;
+
+}
+header > ul{
+    font-size: 2rem;
+}
+
+header .text{
+    font-size: 1.1rem;
+    padding-left: 30px;
+}
+
+.sec1{
+    background-color: black;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.rec3{
+    width: 12px;
+    height: 3px;
+    background-color: #ffcc33;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 10px;
+    }
+.sec2{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-direction: row;
+}
+.section-img{
+    height: 730px;
+    top: 75px;
+    position: relative;
+    z-index: 5;
+    width: 100%;
+}
+
+.photo-cont{
+    flex-basis: 40%;
+    min-width: 100px;
+}
+
+.section-img1{
+    height: 1150px;
+    top: -100px;
+    position: relative;
+    z-index: 5;
+    /*width: 540px;*/
+    width: 100%;
+}
+.margin0{
+    margin: 0;
+}
+.height900{
+    height: 950px;
+}
+.text-section{
+    height: 600px;
+    /* width: 60%; */
+    text-align: inherit;
+    padding-top: 80px;
+    /* box-sizing: border-box; */
+    /* padding-left: 228px; */
+    font-size: 4rem;
+    overflow: hidden;
+    flex-basis: 40%;
+    margin-left: 50px;
+    min-width: 150px;
+}
+.margintop{
+    margin-top: 50px;
+}
+.cont1 div:nth-child(3){
+    font-size: 1.2rem;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 10px;
+    color: #5e5e5e;
+}
+.additional_text-section{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7rem;
+    line-height: 36px;
+    color: #B2B2B2;
+}
+
+.additional_text-hover:hover{
+    color: #FFBB00;
+    cursor: pointer;
+}
+
+button[name="SELECIONE A SUA"] {
+    border: none;
+    border-radius: 3px;
+    margin-top: 30px;
+    padding: 10px 25px;
+    background: #ff9900;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+}
+button[name="SELECIONE A SUA"]:hover {
+    background: #ff6600;
+}
+
+button[name="INSCREVA-SE"] {
+    margin-top: 20px;
+    margin-left: 10px;
+
+    padding: 10px 25px;
+    background: #2E2E2E;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    height: 50px;
+}
+button[name="INSCREVA-SE"]:hover {
+    background: #ff6600;
+}
+
+.text-main{
+    padding-top: 80px;
+    box-sizing: border-box;
+    padding-left: 228px;
+    font-size: 3rem;
+    /*position: absolute;*/
+}
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.for_additional_text{
+    width: 290px;
+    padding-top: 25px;
+}
+
+.cont1{
+    font-size: 2rem;
+}
+
+.img-sec2{
+    width: 100%;
+}
+.rec1,
+.rectangle{
+    width: 20px;
+    height: 10px;
+    background-color: #ffcc33;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+.rec1{
+    margin-left: 50px;
+}
+.main_text_sec3{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+    color: #B2B2B2;
+}
+
+.yellow_text_underline{
+    color: orange;
+    text-decoration: underline orange 4px;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+}
+
+.for-sec3{
+    align-items: flex-start;
+    margin-top: 190px;
+    /*overflow: hidden;*/
+}
+
+.item1{
+    width: 320px;
+    height: 140px;
+    border: 2px solid #E0E0E0;
+    overflow: hidden;
+
+  /*  display: flex;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+
+}
+
+.cont-labels > div:nth-child(1){
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.caravan {
+    background-image: url("../media/caravan1.png");
+}
+.ranek {
+    background-image: url("../media/ranek1.png");
+}
+.handle {
+    background-image: url("../media/handel1.png");
+}
+.dogs {
+    background-image: url("../media/dogs 1.png");
+}
+.lexon {
+    background-image: url("../media/lescone 1.png");
+}
+.flex-box {
+    background-image: url("../media/flexblog 1.png");
+}
+.wildbest {
+    background-image: url("../media/wildbeast 1.png");
+}
+.surfbot {
+    background-image: url("../media/surfbot 1.png");
+    margin: 0 auto;
+}
+
+.img-labels{
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 54px 83px;
+    width: 100%;
+}
+
+
+.cont{
+    width: 100%;
+    height: 600px;
+    margin-top: 160px;
+    display: flex;
+}
+
+.in_cont1{
+    flex: 0 0 50%;
+    background: #FFBB00;
+    overflow: hidden;
+}
+.in_cont{
+    flex: 0 0 50%;
+}
+
+.cont img{
+    width: 100%;
+    height: 100%;
+}
+.in_cont1 div{
+    font-family: 'Merriweather';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    max-width: 70%;
+    line-height: 48px;
+    color: #332200;
+    position: relative;
+    top: 55%;
+    left: 13%;
+}
+
+.quote{
+  content: url("../media/“ 1.png");
+}
+.quote-rotate{
+  content: url("../media/“ 1.png");
+  transform: rotate(-180deg);
+}
+
+
+.in_cont1 div span:nth-child(1){
+    position: absolute;
+    bottom: 81%;
+    right: 100%;
+}
+.in_cont1 div span:nth-child(2){
+    position: absolute;
+    bottom: -2%;
+    right: -1%;
+}
+
+.in_cont1 div:nth-last-child(1){
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 1rem;
+    color: #664400;
+    font-weight: 600;
+}
+
+.cont2 {
+    width: 100%;
+    height: 800px;
+    background: #161616;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+
+.ittem1 {
+    width: 456px;
+    height: 381px;
+    background: black;
+    position: relative;
+    left: 75px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+.ittem2{
+    width: 456px;
+    height: 456px;
+    background: black;
+    position: relative;
+    left: 75px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3%;
+}
+
+.main_text1{
+    position: absolute;
+    top: 82px;
+    left: 142px;
+    color: white;
+    font-size: 4rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+.cont2 div:nth-child(1) span{
+    color: yellow;
+}
+
+
+
+.text_in_section_main{
+    font-size: 3rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    color: #9C9C9C;
+    position: relative;
+    left:70%
+
+}
+.text_in_section_main:hover{
+    color: #FFBB00;
+    transition: 1s;
+}
+.text_in_section_add{
+    color: white;
+    font-size: 1rem;
+    margin-top: 50px;
+    position: absolute;
+    left: 65px;
+}
+
+.price-font{
+    color: white;
+    font-size:3rem;
+    margin-right: 30px;
+}
+
+.price-font-add{
+    color:grey;
+    position:relative;
+    left:65px;
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background: #000000;
+    overflow: hidden;
+
+}
+
+.flex{
+    display: flex;
+    color: #E0E0E0;
+    display: flex;
+    color: #E0E0E0;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding-top: 7%;
+}
+
+.youtube{
+    width: 76px;
+    height: 72px;
+    background: url(../media/основные-rgb-zaporizhzhia-ukraine-august-collection-popular-social-media-logos-printed-paper-facebook-viber-tik-tok-230742216.jpg);
+    border-radius: 20px;
+    background-position: 264px -148px;
+    position: relative;
+    /* right: 9px; */
+    margin-top: 6%;
+  }
+
+  .facebook{
+    width: 76px;
+    height: 72px;
+    background: url(../media/основные-rgb-zaporizhzhia-ukraine-august-collection-popular-social-media-logos-printed-paper-facebook-viber-tik-tok-230742216.jpg);
+    border-radius: 20px;
+    background-position: 1157px -148px;
+    position: relative;
+    right: 20px;
+    margin-top: 3%;
+  }
+
+  .instagram{
+    width: 76px;
+    height: 72px;
+    background: url(../media/основные-rgb-zaporizhzhia-ukraine-august-collection-popular-social-media-logos-printed-paper-facebook-viber-tik-tok-230742216.jpg);
+    border-radius: 20px;
+    background-position: -60px -148px;
+    position: relative;
+    right: 40px;
+    margin-top: 6%;
+  }
+
+  .caption{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 32px;
+    letter-spacing: 0.015em;
+    color: #9C9C9C;
+    font-size: 1rem;
+    /* height: 100%; */
+    position: relative;
+    top: 380px;
+  }
+
+  
