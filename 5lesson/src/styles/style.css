@@ -1,0 +1,649 @@
+@import url('http://fonts.cdnfonts.com/css/rosario');
+
+:root{
+    font-size: 12px;
+    font-family: 'Rosario', sans-serif;
+    font-style: italic;
+
+}
+a:focus, a:active {
+  outline: none;
+    /*color: black;*/
+}
+.wrapper{
+    /*width: 100%;*/
+    /*max-width: 1620px;*/
+    margin: 0 auto;
+    display: block;
+}
+a, a:visited {
+  text-decoration: none;
+}
+header a{
+    color: white;
+}
+a:hover {
+  text-decoration: none;
+}
+iframe{width: 95%}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.header {
+    background: black;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.header img{
+    height: 100%;
+    background: aliceblue;
+}
+
+.header nav{
+    display: flex;
+    color: white;
+}
+
+.menu-list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-size: 2rem;
+}
+.menu-list-item {
+	margin-right: 40px;
+}
+.menu-list-item:last-child {
+	margin-right: 20px;
+}
+
+.section{
+    height: 105vh;
+    /*border: black solid 1px;*/
+    background: #eeebea;
+    box-sizing: border-box;
+}
+
+.sec1-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*flex-wrap: wrap;*/
+}
+
+.sec1-flex div:nth-child(2) img{
+    height: 350px;
+    max-width: 400px;
+    margin-right: 10px;
+    padding-bottom: 20px;
+    width: 95%;
+    min-width: 200px;
+
+}
+.sec1-flex > div:nth-child(2){
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+.sec1-flex div img{
+    height: 550px;
+    width: 100%;
+    min-width: 200px;
+}
+
+
+.sec2-flex{
+    display: flex;
+}
+
+.sec2-flex div{
+    flex: 1 1 50%;
+    /*align-self: center;*/
+}
+
+.sec2-flex > div:nth-child(1){
+    display: flex;
+    flex-direction: row;
+    /* flex: 1 1 50%; */
+    align-self: center;
+    align-items: center;
+}
+
+.sec2-img-border{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.text-hair-style{
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.img-wrapper{
+    text-align: center;
+    /*line-height: 30px;*/
+    margin-top: 90px;
+    font-size: 40px;
+}
+
+.title{
+    font-size: 6rem;
+    font-style: normal;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.sec3{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.sec3 > div {
+    background: black;
+    border-radius: 40px;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    max-height: 625px;
+}
+
+.sec3 img{
+    max-width: 350px;
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+
+}
+.sec3:hover img{
+    opacity: 0.4;
+    transition: all 1s;
+}
+.hover-item > img:hover{
+    opacity: 1;
+
+}
+.hover-item > img:hover + .hidden{
+    visibility: visible;
+
+}
+
+.hidden{
+    visibility: hidden;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background: rgba(163, 83, 10, 0.7);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    height: 26%;
+    top: -26%;
+    line-height: 3;
+    color: white;
+    font-size: 3rem;
+    transition-delay: 0.3s;
+}
+
+/*div[class*='hover']:hover{*/
+/*    opacity: 0.3;*/
+/*}*/
+.sec4{
+    display: flex;
+    flex-direction: column;
+}
+.sec4-inner{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 75%;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    text-align: center;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.footer > div{
+    max-width: 36%;
+}
+.footer h4{
+    margin-block: 0;
+    margin-block-end: 0;
+}
+.footer h3{
+    margin-block: 0;
+    margin-block-end: 25px;
+}
+
+.form-text-sec {
+    flex: 1 1 65%;
+    text-align: left;
+    font-size: 3.4rem;
+    position: relative;
+    bottom: 28px;
+    /* width: 80%; */
+    /* max-width: 800px; */
+}
+.form-sec {
+    background: #E5E5E5;
+    width: 90%;
+    height: 330px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    max-height: 330px;
+    z-index: 2;
+    max-width: 900px;
+}
+.map-sec{
+    flex: 1 1 35%;
+}
+.text-area{
+    resize: none;
+    width: 90%;
+     margin: -15px 4%;
+    border: 0;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+    height: 180px;
+    max-height: 200px;
+}
+input[type='text']{
+    margin: 0;
+    width: 42.5%;
+    height: 60px;
+    border: 0;
+    padding: 0;
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+.form-sec input:first-of-type{
+    margin: 5% 4%;
+}
+.form-text-sec h1 {
+    margin: 52px auto;
+    /* width: 800px; */
+    width: 91%;
+    text-align: center;
+    max-height: 142px;
+    overflow: hidden;
+}
+.for_animation1,
+.sec1-flex > div:nth-child(1){
+    animation: first_media 3s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+    position: relative;
+    right: 400px;
+}
+.sec1-flex > div:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.for_animation2,
+.sec1-flex > div:nth-child(3){
+    animation: second_media 3s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+    position: relative;
+    left: 400px;
+}
+.sec1-flex > div:nth-child(3) {
+    animation-delay: 2s;
+}
+.sec2-flex > div:nth-child(1) img:hover{
+    animation: spin 5s linear 0s infinite;
+}
+.anim4{
+    animation: spin-block 15s infinite;
+
+}
+.anim3{
+    animation: spin-block1 15s infinite;
+
+}
+.anim2{
+    animation: spin-block2 15s infinite;
+
+}
+.anim1{
+        animation: spin-block3 15s infinite;
+}
+footer img{
+    position: relative;
+    top: 10px;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+/*.sec3 > div img:hover{*/
+/*    content: 'safas';*/
+/*    opacity: 0.4;*/
+/*}*/
+/*.sec3 img:hover{*/
+/*    !*content: '';*!*/
+/*    opacity: 0.5;*/
+/*    background: rgb(0, 0, 0, 0.5);*/
+
+@keyframes first_media {
+    /*from,*/
+    to{
+       right: 0;
+    }
+}
+@keyframes second_media {
+    /*from,*/
+    to{
+       left: 0;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+@keyframes spin-block {
+    0%{
+        animation-delay: 1s;
+    }
+    15%{
+        transform: translateX(-100%);
+    }
+    30%{
+        transform: translate(-100%, -125%);
+
+    }
+    45%{
+        transform: translate(0, -125%);
+    }
+    60%{
+        transform: translate(0, 0);}
+    100%{
+        transform: translate(0, 0);
+        animation-delay: 2s;
+    }
+}
+@keyframes spin-block1 {
+    0%{
+        animation-delay: 1s;
+    }
+    15%{
+        transform: translate(0, 125%);
+    }
+    30%{
+        transform: translate(-100%, 125%);
+
+    }
+    45%{
+        transform: translate(-100%, 0%);
+    }
+    60%{
+        transform: translate(0, 0);}
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes spin-block2 {
+    0%{
+        animation-delay: 1s;
+    }
+    15%{
+        transform: translate(0, -125%);
+    }
+    30%{
+        transform: translate(100%, -125%);
+
+    }
+    45%{
+        transform: translate(100%, 0);
+    }
+    60%{
+        transform: translate(0, 0);}
+    100%{
+        transform: translate(0, 0);
+    }
+}
+@keyframes spin-block3 {
+    0%{
+        animation-delay: 1s;
+    }
+    15%{
+        transform: translate(100%, 0);
+    }
+    30%{
+        transform: translate(100%, 125%);
+
+    }
+    45%{
+        transform: translate(0, 125%);
+    }
+    60%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(0, 0);
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
+    :root{
+        font-size: 9px;
+    }
+
+    .wrapper{
+        max-width: 992px;
+        min-width: 800px;
+    }
+    .sec3 > div {
+        background: black;
+        border-radius: 40px;
+        z-index: 2;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        max-height: 45%;
+        max-width: 41%;
+    }
+    .hover-item{
+        flex: 1 1 300px;
+    }
+    .sec3 {
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    height: 72%;
+    }
+    .hidden{
+        top: -35%;
+        line-height: 2;
+    }
+    .sec2-flex {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+    .sec1-flex {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+        flex-flow: row wrap;
+        padding-top: 30px;
+    }
+    .sec1-flex > div:nth-child(1){
+        margin-right: 20px;
+        width: 370px;
+        animation-delay: 0s;
+        padding-bottom: 10px;
+
+    }
+    .sec1-flex > div:nth-child(2){
+        order: 1;
+    }
+    .sec1-flex > div:nth-child(3){
+        width: 370px;
+        animation-delay: 0s;
+        margin-right: 20px;
+        padding-bottom: 10px;
+    }
+    .for_animation1 img:nth-child(1){
+        animation-delay: 1s;
+
+    }
+
+
+}
+@media screen and (max-width: 768px) {
+    .wrapper{
+        max-width: 800px;
+        min-width: 400px;
+        /*overflow: hidden;*/
+    }
+    :root{
+        font-size: 7px;
+    }
+    .header{
+        justify-content: flex-start;
+        position: sticky;
+        position: -webkit-sticky;
+        overflow: hidden;
+        /*margin: 0;*/
+    }
+    .sec1-flex div {
+        flex-direction: column;
+        /*height: 100%;*/
+    }
+    .sec1-flex {
+        flex-direction: column;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .for_animation1{
+        padding-top: 20px;
+    }
+    .sec1-flex > div:nth-child(1){
+        width: 410px;
+        animation: first_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;;
+        animation-delay: 0.1s;
+    }
+    .sec1-flex div:nth-child(2){
+        width: 410px;
+    }
+    .sec1-flex > div:nth-child(3){
+        width: 410px;
+        animation-delay: 3s;
+    }
+    .sec1-flex div:nth-child(2) img {
+        height: 350px;
+        max-width: 410px;
+        /* margin-right: 10px; */
+        padding-bottom: 20px;
+        width: 100%;
+        min-width: 200px;
+    }
+    .for_animation1, .for_animation2{
+        animation: none;
+        left: 0;
+    }
+    .for_animation1:first-child(1){
+        animation: first_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+        animation-delay: 0.3s;
+    }
+    .anim1_inner{
+        position: relative;
+        left: 400px;
+        animation: second_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+        animation-delay: 0.8s;
+    }
+    .anim2_inner{
+        position: relative;
+        right: 400px;
+        animation: first_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+        animation-delay: 1.3s;
+    }
+    .anim3_inner{
+        position: relative;
+        left: 400px;
+        animation: second_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+        animation-delay: 1.8s;
+    }
+    .anim4_inner{
+        position: relative;
+        right: 400px;
+        animation: first_media 4s cubic-bezier(0.24, 0.62, 0.57, 0.88) forwards;
+        animation-delay: 1.3s;
+    }
+    .sec2-flex > div:nth-child(2){
+        display: none;
+    }
+    .menu-list-item{
+        margin-right: 20px;
+    }
+    .sec3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    }
+    .section{
+        height: calc((100%) + 50px);
+    }
+    .sec3 > div {
+        background: black;
+        border-radius: 40px;
+        z-index: 2;
+        position: relative;
+        overflow: hidden;
+        box-sizing: border-box;
+        max-height: 580px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .hidden {
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        background: rgba(163, 83, 10, 0.7);
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        height: 26%;
+        top: 71%;
+        line-height: 3;
+        color: white;
+        font-size: 6rem;
+        transition-delay: 0.3s;
+    }
+    iframe {
+        width: 90%;
+        /* margin: 0 auto; */
+        margin-left: 5%;
+    }
+    .sec4-inner {
+        display: flex;
+        flex-direction: column-reverse;
+        flex: 1 1 100%;
+    }
+    .map-sec{
+        width: 100%;
+    }
+    .sec2-img-border {
+        border-radius: 50%;
+        height: 90%;
+        width: 90%;
+    }
+}
+
