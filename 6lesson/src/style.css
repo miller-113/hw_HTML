@@ -120,10 +120,19 @@ body{
     box-shadow: 7px 7px 0px red;
 
 }
+.grid7 ul{
+    white-space: pre-line;
+
+}
 .grid8{
     grid-row-start: 6;
     grid-row-end: 8;
         margin-bottom: 15%;
+
+}
+.grid8 ul{
+    list-style-type: '# ';
+
 }
 [class^='grid'] ul{
     margin-left: 30px;
